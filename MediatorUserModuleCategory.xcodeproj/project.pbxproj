@@ -13,7 +13,7 @@
 		582453132085CC43001E6737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582453122085CC43001E6737 /* Assets.xcassets */; };
 		582453162085CC43001E6737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582453142085CC43001E6737 /* LaunchScreen.storyboard */; };
 		582453192085CC43001E6737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 582453182085CC43001E6737 /* main.m */; };
-		582453652085D111001E6737 /* Mediator+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 582453642085D111001E6737 /* Mediator+User.m */; };
+		5824536A2085D6DC001E6737 /* Mediator+User.m in Sources */ = {isa = PBXBuildFile; fileRef = 582453692085D6DB001E6737 /* Mediator+User.m */; };
 		A8CA00759C4011EA3D1DAE24 /* libPods-MediatorUserModuleCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4816022ECBDDA5081E9001C4 /* libPods-MediatorUserModuleCategory.a */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		582453152085CC43001E6737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		582453172085CC43001E6737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		582453182085CC43001E6737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		582453632085D111001E6737 /* Mediator+User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mediator+User.h"; sourceTree = "<group>"; };
-		582453642085D111001E6737 /* Mediator+User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Mediator+User.m"; sourceTree = "<group>"; };
+		582453682085D6DB001E6737 /* Mediator+User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mediator+User.h"; sourceTree = "<group>"; };
+		582453692085D6DB001E6737 /* Mediator+User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Mediator+User.m"; sourceTree = "<group>"; };
 		5B575DC74AF735405682FA04 /* Pods-MediatorUserModuleCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediatorUserModuleCategory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediatorUserModuleCategory/Pods-MediatorUserModuleCategory.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,7 +85,7 @@
 		582453082085CC43001E6737 /* MediatorUserModuleCategory */ = {
 			isa = PBXGroup;
 			children = (
-				582453662085D11A001E6737 /* Category */,
+				582453672085D6DB001E6737 /* MediatorUserModuleCategory */,
 				582453092085CC43001E6737 /* AppDelegate.h */,
 				5824530A2085CC43001E6737 /* AppDelegate.m */,
 				5824530C2085CC43001E6737 /* ViewController.h */,
@@ -99,13 +99,13 @@
 			path = MediatorUserModuleCategory;
 			sourceTree = "<group>";
 		};
-		582453662085D11A001E6737 /* Category */ = {
+		582453672085D6DB001E6737 /* MediatorUserModuleCategory */ = {
 			isa = PBXGroup;
 			children = (
-				582453632085D111001E6737 /* Mediator+User.h */,
-				582453642085D111001E6737 /* Mediator+User.m */,
+				582453682085D6DB001E6737 /* Mediator+User.h */,
+				582453692085D6DB001E6737 /* Mediator+User.m */,
 			);
-			path = Category;
+			path = MediatorUserModuleCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5824530E2085CC43001E6737 /* ViewController.m in Sources */,
-				582453652085D111001E6737 /* Mediator+User.m in Sources */,
+				5824536A2085D6DC001E6737 /* Mediator+User.m in Sources */,
 				582453192085CC43001E6737 /* main.m in Sources */,
 				5824530B2085CC43001E6737 /* AppDelegate.m in Sources */,
 			);

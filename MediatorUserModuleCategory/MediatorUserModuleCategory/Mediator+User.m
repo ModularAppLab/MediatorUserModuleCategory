@@ -12,7 +12,7 @@
 
 + (UIViewController *)userViewControllerWithId:(NSString *)userId {
     
-    return [[self sharedInstance] performTarget:@"YHUserModule" action:@"userViewControllerWithId:" params:@{@"userId" : userId} shouldCacheTarget:NO];
+    return [[self sharedInstance] performTarget:@"UserModuleTarget" action:@"userViewControllerWithId:" params:@{@"userId" : userId} shouldCacheTarget:NO];
 }
 
 @end
