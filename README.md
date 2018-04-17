@@ -1,1 +1,1 @@
-# MediatorUserModuleCategory
+pod "MediatorUserModuleCategory"
